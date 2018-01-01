@@ -23,7 +23,11 @@ public class Crime {
     private boolean mSolved;
 
     public Crime() {
-        mId = UUID.randomUUID();
+        this(UUID.randomUUID());
+    }
+
+    public Crime(UUID id) {
+        mId = id;
         mDate = new Date();
         sCalendar.setTime(mDate);
         mHour = sCalendar.get(Calendar.HOUR_OF_DAY);
