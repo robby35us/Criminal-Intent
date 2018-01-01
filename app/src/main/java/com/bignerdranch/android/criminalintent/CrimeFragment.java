@@ -166,6 +166,9 @@ public class CrimeFragment extends Fragment {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()) {
+            case android.R.id.home:
+                getActivity().finish();
+                return true;
             case R.id.delete_crime:
                 CrimeLab.get(getActivity()).deleteCrime(mCrime);
                 getActivity().finish();

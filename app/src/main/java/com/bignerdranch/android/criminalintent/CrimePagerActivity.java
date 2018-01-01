@@ -22,6 +22,8 @@ import java.util.UUID;
 public class CrimePagerActivity extends AppCompatActivity {
     private static final String EXTRA_CRIME_ID =
             "com.bignerdranch.android.criminalintent.crime_id";
+    public static final int REQUEST_CODE = 0;
+
 
     private ViewPager mViewPager;
     private Button mFirstPageButton;
