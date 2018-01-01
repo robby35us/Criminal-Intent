@@ -59,7 +59,7 @@ public class CrimePagerActivity extends AppCompatActivity {
                 if(position == mCrimes.size() - 1) {
                     mLastPageButton.setEnabled(false);
                 } else if(position == mCrimes.size() - 2) {
-                    mFirstPageButton.setEnabled(true);
+                    mLastPageButton.setEnabled(true);
                 }
             }
 
@@ -130,5 +130,22 @@ public class CrimePagerActivity extends AppCompatActivity {
                 break;
             }
         }
+
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
