@@ -54,7 +54,7 @@ public class CrimePagerActivity extends AppCompatActivity {
                     mFirstPageButton.setEnabled(false);
                 } else if(position == 1) {
                     mFirstPageButton.setEnabled(true);
-                }
+                                                                                                                                                                                                                }
 
                 if(position == mCrimes.size() - 1) {
                     mLastPageButton.setEnabled(false);

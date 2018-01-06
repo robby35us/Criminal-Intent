@@ -119,6 +119,7 @@ public class CrimeLab {
         values.put(CrimeTable.Cols.MINUTE, crime.getMinute());
         values.put(CrimeTable.Cols.AM_PM, crime.getAM_PM());
         values.put(CrimeTable.Cols.SOLVED, crime.isSolved() ? 1 : 0);
+        values.put(CrimeTable.Cols.SUSPECT, crime.getSuspect());
         return values;
     }
 }
